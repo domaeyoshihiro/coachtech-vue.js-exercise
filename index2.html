@@ -21,7 +21,7 @@
         <div id="overlay" @click="clickEvent">
           <div id="content" @click="stopEvent">
             <p><slot></slot></p>
-            <button v-on:click="clickEvent">閉じる</button>
+            <button @click="clickEvent">閉じる</button>
           </div>
         </div>
       `,
